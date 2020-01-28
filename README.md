@@ -1,5 +1,4 @@
-# Data-Incubator-2020-Capstone-Project-Proposal
-## Capstone project proposal for Data Incubator 2020 application
+# Wearable Data Affective State Classifier
 
 In this proposal I have built a multi-class emotional affect classifier in Python using a 3-layer long short-term memory (LSTM) recurrent neural network trained on wearable data.  The classifier predicts three states of affect – baseline, stress and amusement using the wearable data.  To accomplish this, I downloaded and used a publicly available dataset for WEarable Stress and Affect Detection (WESAD), available here:
 
