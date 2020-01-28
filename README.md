@@ -1,12 +1,12 @@
 # Wearable Data Affective State Classifier
 
-In this proposal I have built a multi-class emotional affect classifier in Python using a 3-layer long short-term memory (LSTM) recurrent neural network trained on wearable data.  The classifier predicts three states of affect – baseline, stress and amusement using the wearable data.  To accomplish this, I downloaded and used a publicly available dataset for WEarable Stress and Affect Detection (WESAD), available here:
+In this project I have built a multi-class emotional affect classifier in Python using a 3-layer long short-term memory (LSTM) recurrent neural network trained on wearable data.  The classifier predicts three states of affect – baseline, stress and amusement using the wearable data.  To accomplish this, I downloaded and used a publicly available dataset for WEarable Stress and Affect Detection (WESAD), available here:
 
 https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29#
 
 WESAD is a multimodal dataset that includes physiological and motion data along with self-reports of the subjects affect.  The following physiological sensor modalities were measured from the wrist and/or chest of each subject: blood volume pulse, electrocardiogram, electrodermal activity, electromyogram, respiration, body temperature, and three-axis acceleration. Self-reports of the subjects affect were obtained using several established questionnaires.
 
-Here in this proposal I use a subset of these modalities -- accelerometer data, temperature data (skin temperature), and electrodermal activity to classify affective state.
+Here in this project I use a subset of these modalities -- accelerometer data, temperature data (skin temperature), and electrodermal activity to classify affective state.
 
 ## File Organization and Function 
 
