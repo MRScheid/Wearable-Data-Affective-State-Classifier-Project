@@ -49,7 +49,7 @@ The features of electrodermal acitivty used were:
 
 ## Results
 
-Multi-class classification of this dataset has been done using other algorithms such as decision trees, random forests, Adaboost DT, linear discriminant analysis and k-nearest neighbors (https://www.eti.uni-siegen.de/ubicomp/papers/ubi_icmi2018.pdf).  The previous best reported multi-class classification performance using the ADABoost DT algorithm was 80% accuracy.  Using a three-layer LSTM neural network to do multi-class classification on this dataset, my solution improved the performance on the multi-class classification to 92% accuracy using only a subset of features used in the referenced paper.  This means my model improved accuracy by approximately 12% over the current benchmark iwth less features.
+Multi-class classification of this dataset has been done using other algorithms such as decision trees, random forests, Adaboost DT, linear discriminant analysis and k-nearest neighbors (https://www.eti.uni-siegen.de/ubicomp/papers/ubi_icmi2018.pdf).  The previous best reported multi-class classification performance using the ADABoost DT algorithm was 80% accuracy.  Using a three-layer LSTM neural network to do multi-class classification on this dataset, my solution improved the performance on the multi-class classification to 92% accuracy using only a subset of features used in the referenced paper.  This means my model improved accuracy by approximately 12% over the current benchmark with less features.
 
 
 
