@@ -1,12 +1,12 @@
 # Wearable Data Affective State Classifier
 
-In this project I have built a multi-class emotional affect classifier in Python using a 3-layer long short-term memory (LSTM) recurrent neural network trained on wearable data.  The classifier predicts three states of affect – baseline, stress and amusement using the wearable data.  To accomplish this, I downloaded and used a publicly available dataset for WEarable Stress and Affect Detection (WESAD), available here:
+In this project I have built a multi-class emotional affect classifier in Python using a 3-layer long short-term memory (LSTM) recurrent neural network trained on wearable data.  The classifier predicts three states of affect--baseline, stress and amusement using the wearable data.  To accomplish this, I downloaded and used a publicly available dataset for WEarable Stress and Affect Detection (WESAD), available here:
 
 https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29#
 
 WESAD is a multimodal dataset that includes physiological and motion data along with self-reports of the subjects affect.  The following physiological sensor modalities were measured from the wrist and/or chest of each subject: blood volume pulse, electrocardiogram, electrodermal activity, electromyogram, respiration, body temperature, and three-axis acceleration. Self-reports of the subjects affect were obtained using several established questionnaires.
 
-Here in this project I use a subset of these modalities -- accelerometer data, temperature data (skin temperature), and electrodermal activity to classify affective state.
+Here in this project I use a subset of these modalities--accelerometer data, temperature data (skin temperature), and electrodermal activity to classify affective state.
 
 ## File Organization and Function 
 
@@ -52,7 +52,7 @@ The features of electrodermal acitivty used were:
 Multi-class classification of this dataset has been done using other algorithms such as decision trees, random forests, Adaboost DT, linear discriminant analysis and k-nearest neighbors (https://www.eti.uni-siegen.de/ubicomp/papers/ubi_icmi2018.pdf).  The previous best reported multi-class classification performance using the ADABoost DT algorithm was 80% accuracy.  Using a three-layer LSTM neural network to do multi-class classification on this dataset, my solution improved the performance on the multi-class classification to 92% accuracy using only a subset of features used in the referenced paper.  This means my model improved accuracy by approximately 12% over the current benchmark with less features.
 
 ## LSTM justifications and considerations
-The long short-term memory neural network is a type of neural network that in addition to the regular inputs at each node also have a recurrent input that allows the network to take time and sequence into account, effectively giving them a temporal dimension.   
+The long short-term memory neural network is a type of neural network that in addition to the regular inputs at each node also have a recurrent input that allows the network to take time and sequence into account, effectively giving it a temporal dimension.   
 
 Here I've used an LSTM for two reasons:
 
